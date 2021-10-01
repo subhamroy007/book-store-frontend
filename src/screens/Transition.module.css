@@ -1,0 +1,25 @@
+.notify-enter {
+  top: -10vh;
+}
+
+.notify-enter-active {
+  top: 10vh;
+  transition: top 400ms ease-out;
+}
+
+.notify-enter-done {
+  top: 10vh;
+}
+
+.notify-exit {
+  top: 10vh;
+}
+
+.notify-exit-active {
+  top: -10vh;
+  transition: top 400ms ease-out;
+}
+
+.notify-exit-done {
+  top: -10vh;
+}

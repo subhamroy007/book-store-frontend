@@ -1,0 +1,73 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 95%;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.input-container label {
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 0.4em;
+  font-size: 1em;
+  background-color: rgb(245, 243, 243);
+  border-radius: 0.5em;
+  border: 1px solid black;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.file-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: calc(95% - 0.8em);
+  border: 1px solid black;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 0.5em;
+}
+
+.file-wrapper {
+  flex: 1;
+  /* background-color: red; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.file-wrapper input {
+  width: 0;
+  height: 0;
+}
+
+.cancel-button {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+.error {
+  background-color: rgb(255, 117, 117) !important;
+  color: rgb(250, 53, 53);
+}

@@ -1,0 +1,60 @@
+.card {
+  width: 40%;
+  height: 85%;
+  background-color: coral;
+  text-align: center;
+  transition: opacity 500ms ease-out, background-color 200ms ease-out;
+  opacity: 0;
+}
+
+.card:hover {
+  background-color: chocolate;
+}
+
+.card-entering {
+  opacity: 1;
+}
+
+.card-entered {
+  opacity: 1;
+}
+
+.card-exiting {
+  opacity: 0;
+}
+
+.card-exited {
+  opacity: 0;
+}
+
+.card2 {
+  width: 40%;
+  height: 85%;
+  background-color: coral;
+  text-align: center;
+  transition: opacity 500ms ease-out, background-color 200ms ease-out;
+  opacity: 0;
+}
+
+.my-card-container-enter {
+  opacity: 0;
+}
+.my-card-container-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+}
+
+.my-card-container-enter-done {
+  opacity: 1;
+}
+.my-card-container-exit {
+  opacity: 1;
+}
+.my-card-container-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+.my-card-container-exit-done {
+  opacity: 0;
+}

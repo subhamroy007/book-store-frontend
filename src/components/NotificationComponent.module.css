@@ -1,0 +1,19 @@
+.notify {
+  background-color: white;
+  border-radius: 8px;
+  font-size: 1em;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 0.5em;
+}
+
+.title {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}

@@ -1,0 +1,12 @@
+.screen {
+  background-color: white;
+  flex: 10;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  overflow-y: auto;
+  padding: 0.5em;
+}
